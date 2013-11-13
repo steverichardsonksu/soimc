@@ -40,7 +40,6 @@
 			border-radius: 0;
 			padding: 1em 0;
 			text-decoration: none;
-			border: 1px solid #003d79;
 		}
 
 		.btn_current {
@@ -147,19 +146,7 @@
     	vertical-align: top;
     }
 
- body:after {
-  content: "Default";
-  left: 50%;
-  position: fixed;
-  top: 0;
-}
- 
-/*@media only screen and (max-width: 600px) {*/
-@media only screen and (max-width: 768px) {
-	body:after {
-		content: "Small";
-	}
-
+ @media only screen and (max-width: 768px) {
 	nav {
 		margin: 2em 5%;
 		display: inline-block;
@@ -178,6 +165,7 @@
 	.btn {
 		clear: both;
 		outline: 1px solid #003d79;
+		border: 1px solid #003d79;
 	}
 
 	.btn_current {
@@ -190,17 +178,7 @@
 	}
 }
  
-/*@media only screen and (min-width: 601px) and (max-width: 768px) {
-	body:after {
-		content: "Medium";
-	}
-}
-*/ 
 @media only screen and (min-width: 769px) {
-	body:after {
-		content: "Large";
-	}
-	
 	.btn {
 		padding: 1em 0;
 		margin: 1em .25em;
