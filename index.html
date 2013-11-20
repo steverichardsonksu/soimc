@@ -5,146 +5,86 @@
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width">
 		<title>Special Olympics | Monroe County, Indiana</title>
-<!-- move these styles to a remote stylesheet -->
-<style>
-	/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
-	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
-
-		body {
-			width: 48.375em;
-			margin: 0 auto;
-		}
-
-		.btn {
-			display: block;
-			float: left;
-			text-align: center;
-			background: #003d79;
-			color: white;
-			padding: 1em 0;
-			margin: 1em .5em;
-			width: 8.5em;
-			border: 1px solid #003d79;
-			border-radius: 0.375em;
-			text-decoration: none;
-		}
-
-		.btn_current {
-			background: white;
-			color: #003d79;
-		}
-
-		.carousel li {
-			display: none;
-			position: relative;
-		}
-
-			.carousel li.visible {
-				display: block;
-			}
-
-			.carousel img {
-				width: 774px;
-			}
-
-		.carousel p {
-			position: absolute;
-			width: 60%;
-			font-size: 1.5em;
-			line-height: 1.25em;
-			padding: 1em;
-		}
-
-		.carousel p a {
-			color: white;
-		}
-
-		.align_br {
-			bottom: 0;
-			right: 0;
-		}
-
-		.bkg_blue {
-			background: #003d79;
-		}
-
-		.round_tl {
-			border-top-left-radius: 0.75em;
-		}
-		.text_white {
-			color: white;
-		}
-
-		.opacity70 {
-			opacity: .7;
-		}
-
-		.text_align_right {
-			text-align: right;
-		}
-
-</style>
-<!-- end style -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<a href="#" id="home_button">
-			<img src="images/header.png">
-		</a>
-		<nav>
-			<ul>
-				<li>
-					<a class="btn btn_current" href="calendar.html">
-						Calendar
+		<div id="wrap">
+			<div id="main">
+				<header> 
+					<a href="#" id="btn_home">
+						<img src="images/logo.png">
 					</a>
-				</li>
-				<li>
-					<a class="btn" href="volunteer.html">
-						Volunteer
-					</a>
-				</li>
-				<li>
-					<a class="btn" href="sponsorship.html">
-						Sponsorship
-					</a>
-				</li>
-				<li>
-					<a class="btn" href="about_us.html">
-						About Us
-					</a>
-				</li>
-				<li>
-					<a class="btn" href="contact_us.html">
-						Contact Us
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<section class="carousel">
-			<ul>
-				<li class="visible">
-					<img class="carousel_img" src="images/photos/wheelchair_race_2013.jpg">
-					<p class="align_br round_tl bkg_blue text_white opacity70 text_align_right">Special Olympics Indiana — Monroe County is proud to work with nearly 200 Special Olympics athletes and their families. <a href="#" class="underline">Find out if you or a family member is eligible to participate</a>
-					</p>
-				</li>
-				<li>
-					<img class="carousel_img" src="images/photos/athletics_champions_2012.jpg">
-					<p>We offer year-round sports training and competition for children (8+) and adults with intellectual, cognitive or learning disabilities in seven different sports. <a href="#" class="align_bl round_tr bkg_yellow text_black opacity70 text_align_left underline">View the SOIMC calendar</a>
-					</p>
-				</li>
-				<li>
-					<img class="carousel_img" src="images/photos/equestrian_finals_2013.jpg">
-					<p>Special Olympics is an opportunity for athletes to develop physical fitness, demonstrate courage, experience joy and share gifts, skills and friendship with others in our community. <a href="#" class="round_tl bkg_orange text_black opacity70 text_align_right underline">Get involved</a>
-					</p>
-				</li>
-			</ul>
-		</section>
-		<footer>
-			<p class="text_align_center"><span class="super">&copy;</span>Special Olympics Indiana – Monroe County</p>
-			<p class="text_align_center">P.O. Box 2554 | Bloomington, IN 47402</p>
-			<p class="text_align_center">HOTLINE: <a href="tel:8123251548">(812) 325-1548</a> | email: <a href="mailto:info@soimc.org?subject=SOIMC.org%20website">info@soimc.org</a>
-			<p class="text_align_center">Site sponsored by <a href="http://www.co.monroe.in.us/tsd/Community/ParksRecreation.aspx" target="_blank">Monroe County Parks and Recreation</a>
+				</header>
+				<nav>
+					<ul>
+						<li>
+							<a class="btn btn_current margin_left_0" href="index.html">
+								Home
+							</a>
+						</li>
+						<li>
+							<a class="btn" href="calendar.html">
+								Calendar
+							</a>
+						</li>
+						<li>
+							<a class="btn" href="volunteer.html">
+								Volunteer
+							</a>
+						</li>
+						<li>
+							<a class="btn" href="sponsorship.html">
+								Sponsorship
+							</a>
+						</li>
+						<li>
+							<a class="btn" href="about_us.html">
+								About Us
+							</a>
+						</li>
+						<li>
+							<a class="btn margin_right_0" href="contact_us.html">
+								Contact Us
+							</a>
+						</li> 
+					</ul>
+				</nav>
+				<section class="clear_left">
+					<ul class="carousel">
+						<li class="carousel_item visible">
+							<video class="carousel_video" src='video/so.usagames.2014.mp4' poster="images/video/so.usagames.2014.jpg" controls>
+						</li>
+						<li class="carousel_item">
+							<img class="carousel_img" src="images/photos/wheelchair_race_2013-774x516.png">
+							<a class="carousel_link align_br round_tl bkg_blue text_white opacity_90 text_align_right text_shadow" href="#">Special Olympics Indiana — Monroe County works with nearly 200 athletes and their families. <span class="underline clear_left">Are you or a family member eligible to participate?</span></a>
+						</li>
+						<li class="carousel_item">
+							<img class="carousel_img" src="images/photos/athletics_champions_2012.jpg">
+							<a class="carousel_link align_br round_tl bkg_blue text_white opacity_90 text_align_right text_shadow" href="#">We offer year-round sports training and competition for children (8+) and adults with intellectual, cognitive or learning disabilities in seven different sports. <span class="underline clear_left">View the SOIMC calendar...</span></a>
+							</p>
+						</li>
+						<li class="carousel_item">
+							<img class="carousel_img" src="images/photos/equestrian_finals_2013.jpg">
+							<a class="carousel_link align_br round_tl bkg_blue text_white opacity_90 text_align_right text_shadow" href="#">Special Olympics is an opportunity for athletes to develop physical fitness, demonstrate courage, experience joy and share gifts, skills and friendship with others in our community. <span class="underline clear_left">Get involved...</span></a>
+							</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<div id="push"></div>
+		</div>
+		<footer class="text_align_center">
+			<p><span class="super">&copy;</span>Special Olympics Indiana – Monroe County</p>
+			<p>P.O. Box 2554 | Bloomington, IN 47402</p>
+			<p><a href="tel:8123251548">(812) 325-1548</a> | <a href="mailto:info@soimc.org?subject=SOIMC.org%20website">info@soimc.org</a>
+			</p>
+			<p><a target="_blank" href="http://www.co.monroe.in.us/tsd/Community/ParksRecreation.aspx">Monroe County Parks and Recreation</a>
 			</p>
 		</footer>
+		<script src='js/fastclick.js'></script>
+		<script src="js/carousel.js"></script>
 	</body>
 </html>

@@ -1,4 +1,3 @@
-soimc
-=====
+###Special Olympics Indiana - Monroe County
 
-Special Olympics Indiana - Monroe County
+pull request from personal account
