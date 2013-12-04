@@ -1,0 +1,1 @@
+soimc.startCarousel();
