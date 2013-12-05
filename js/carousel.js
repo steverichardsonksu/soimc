@@ -18,9 +18,9 @@ var soimc = (function() {
 
 	var moveCarousel = function() {
 		document.getElementsByClassName('visible')[0].classList.remove('visible');
-		carousel_items[nextVisible ].classList.add('visible');
+		carousel_items[nextVisible].classList.add('visible');
 		nextVisible++;
-		if((nextVisible) === carousel_items.length) {
+		if(nextVisible === carousel_items.length) {
 			nextVisible = 0;
 			return nextVisible;
 		} else if ((nextVisible - 1) < 0){
@@ -61,7 +61,6 @@ console.log(currentlyVisible)
 	if(carouselVideo) {
 		carouselVideo.addEventListener('play', function() {
 			stopCarousel();
-			carouselVideo.play();
 		});
 
 		carouselVideo.addEventListener('ended', function() {
@@ -71,5 +70,10 @@ console.log(currentlyVisible)
 		});
 	}
 
-	return {startCarousel: startCarousel, stopCarousel: stopCarousel, nextSlide: nextSlide, prevSlide: prevSlide};
+	return {
+		startCarousel: startCarousel,
+		stopCarousel: stopCarousel,
+		nextSlide: nextSlide,
+		prevSlide: prevSlide
+	};
 }());
